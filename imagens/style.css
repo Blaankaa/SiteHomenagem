@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    background-color: snow;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "picture"
+    "article"
+    "footer";
+    grid-template-columns: auto;
+    grid-auto-rows: 200px auto auto auto;
+    min-height: 300px;
+    width: 100%;
+}
+
+header {
+    grid-area: "header";
+    background-color: blue;
+    padding: 20px;
+    margin-bottom: -20px;
+}
+
+#title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: snow;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#subtitle {
+    text-align: center;
+    font-size: 40px;
+    color: snow;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+section {
+    background-color:firebrick;
+    text-align: center;
+}
+
+#image{
+    grid-area: "picture";
+    max-width: 1200px;
+    text-align: center;
+    padding: 20px;
+}
+
+figcaption {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#tribute-info {
+    grid-area: "article";
+    color: white;
+    font-size: 2rem;
+    width: 800px;
+    text-align: justify;
+    margin: auto;
+    padding: 5px;
+}
+
+footer {
+    grid-area: "footer";
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+   
+}
+
+a {
+    color: snow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: red;
+}
