@@ -15,17 +15,16 @@ header {
 }
 
 #title {
+    color: snow; 
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
-    text-align: center;
-    font-weight: bold;
-    color: snow;  
+    text-align: center; 
 }
 
 #subtitle {
+    color: snow;
     text-align: center;
     font-size: 40px;
-    color: snow;
 }
 
 section {
@@ -33,26 +32,27 @@ section {
     text-align: center;
 }
 
+
 #image{
     max-width: 1200px;
-    text-align: center;
-    padding: 25px;
-    padding-bottom: 0px;
+    margin: 25px;
+    margin-bottom: 0px;
+    border: white solid 1px;
 }
 
 figcaption {
-    text-align: center;
     color: white;
-    font-size: 20px;
+    text-align: center;
+    font-size: 1rem;
 }
 
 #tribute-info {
     color: white;
-    font-size: 28px;
+    font-size: 30px;
+    max-width: 800px;
     text-align: justify;
     margin: auto;
     padding: 20px;
-    max-width: 800px;
 }
 
 p {
@@ -61,11 +61,10 @@ p {
 
 footer {
     background-color: blue;
-    padding: 10px;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
-   
+    padding: 10px;
 }
 
 a {
@@ -76,4 +75,5 @@ a {
 
 a:hover{
     color: red;
+    text-decoration: underline;
 }
